@@ -1,0 +1,309 @@
+/* navebar */
+body{
+    background: f1fbff;
+}
+
+.logo img{
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
+    /* border-radius: 55px; */
+}
+
+.navbar, .navbar-expand-lg{
+    height: 80px;
+    background-color: rgba(112, 42, 119, 1);
+    color: white;
+}
+
+.nav-link{
+    transition: all 0.2s;
+}
+
+.nav-link:hover{
+    border-bottom: 5px solid greenyellow;
+}
+
+/* section 1 banner */
+
+.banner{
+    background: linear-gradient(rgba(188,130,238,0.5), rgba(188,130,238,0.5)), url('images/jessica-felicio-kgv0t4pI1T4-unsplash\ 1.png') center center no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.banner .banner-desc{
+    font-size: 48px;
+    color: #fff;
+}
+
+.banner h1{
+    position: relative;
+    width: 395px;
+    height: 132px;
+    font-family: 'Gill Sans MT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 114px;
+    line-height: 132px;
+}
+
+.banner p{
+    position: relative;
+    width: 481px;
+    height: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 5px;
+}
+
+/* section available */
+
+.rw-team{
+    margin: auto;
+    margin-right: 0;
+}
+
+.our-team{
+    width: 50vh;
+    height: 45vh; 
+    padding: 1.879rem 0 2.5rem;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;   
+    background: #FFFFFF;
+    box-shadow: 0px 0px 9px rgba(53, 53, 53, 0.09);
+    border-radius: 10px;
+}
+
+.btn-order{
+    display: none;
+}
+
+.btn-order:hover{
+    background: #702A77;
+    visibility: visible;
+} 
+
+.our-team:hover{
+    background-color: #702A77;
+}
+
+.our-team img:hover{
+    width: 80px;
+    display: flex;
+}
+
+.picture:hover{
+    bagroun : rgba(239, 77, 255, 1);
+}
+
+@media only screen and (max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+    }
+
+    .banner{
+        bottom: 125px;
+    }
+    .banner h1{
+        font-size: 17px;
+    }
+    .banner p{
+        padding: 10px 15px;
+    }
+    
+}
+
+/* .card-img{
+    background-color: rgba(112, 42, 119, 1);
+    width: 310px;
+    height: 210px;
+    position:absolute;
+    top: 0;
+    
+    t
+}
+
+.card-img img{
+    width: 15%;
+    background-color: rgba(239, 77, 255, 1); 
+}
+
+.card-text{
+    color: #fff;
+}
+
+.card-text p{}
+
+.card-text, .bouton{
+    color: #fff;
+} */
+
+/* .diverts:hover{
+    background: rgba(112, 42, 119, 1);
+
+} */
+
+
+/* section cc-menu */
+
+
+.card-text{
+    font-size: 17px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    background: #FFFFFF;
+}
+
+.AND{
+    color: rgba(112, 42, 119, 1);
+}
+
+.rw-overlay{
+    transition: all 0.2s;
+}
+
+.rw-overlay:hover{
+    /* text-decoration: underline; */
+    border-bottom: 5px solid rgba(250, 235, 20, 1);
+    width: 32%;
+}
+
+
+.card-text:hover{
+    box-shadow: 5px 5px 30px rgba(239, 77, 255, 1);
+}
+
+.card-221{
+    height: 850px; 
+    /* overflow: hidden; */
+}
+
+.col-221{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.card-221 img{
+    border-radius: 5px;
+    height: 92%;
+}
+
+
+/* .card-221 img:hover{
+    transform: matrix(1);
+} */
+
+.col-221:hover{
+    box-shadow: 10px 10px 30px rgba(239, 77, 255, 1);
+}
+
+.col-2:hover{
+    box-shadow: 10px 10px 30px rgb(255, 127, 80);
+    border-radius: 15px;
+}
+
+.intro{
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    padding: 6px;
+    bottom: 0px;
+    box-sizing: border-box;
+    position: absolute;
+    background: rgb(255, 255, 0);
+}
+
+.rw-overlay-1 h1{
+    background: #702A77;
+    color: #fff;
+    margin-top: 5px;
+    height: 3%;
+}
+
+.rw-overlay-2{
+    background: #702A77;
+    margin-top: 2px;
+    height: 5%;
+}
+
+.order-form, .card-body{
+    font-size: 18px;
+    color: black;
+}
+
+.card-item-1{
+    transition: all 0.2s;
+}
+
+.card-item-1:hover{
+    box-shadow: 1px 1px 1px 3px rgb(80, 143, 65);
+}
+
+.card-item-2{
+    transition: all 0.2s;
+}
+
+.card-item-2:hover{
+    box-shadow: 1px 1px 1px 3px rgba(112, 42, 119, 1);
+}
+
+.card-item-3{
+    transition: all 0.2s;
+}
+
+.card-item-3:hover{
+    box-shadow: 1px 1px 1px 3px rgb(200, 255, 0);
+}
+
+/* section footer */
+
+.footer{
+    background: rgba(112, 42, 119, 1);
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+i{
+    /* font-size: x-large; */
+    /* gap: 10; */
+   
+}
+
+.rw-overlay-icone{
+    border: 1px solid black;
+    padding: 50px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.37);
+} 
+
+.rw-overlay-icone i{
+    font-size: larger;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 55px;
+    padding: 30px;
+    margin: 25px;
+}
+
+/* .rw-overlay-contact h1{
+    align-items: center;
+    justify-content: center;
+} */
+
+.rw-overlay-contact i{
+    font-size: xx-large;
+    margin: auto;
+    padding: 40px;
+    align-items: center;
+    color: #FFFFFF;
+}
